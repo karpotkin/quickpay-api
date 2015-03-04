@@ -1,7 +1,7 @@
 <?php namespace Karpotkin\QuickpayApi\Request;
 
-use Kameli\QuickpayApi\Exception;
-use Kameli\QuickpayApi\Response;
+use Karpotkin\QuickpayApi\Exception;
+use Karpotkin\QuickpayApi\Response;
 
 /**
  * Base abstract class for requests. Contains common request logic
