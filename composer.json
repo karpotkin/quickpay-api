@@ -1,0 +1,20 @@
+{
+    "name": "karpotkin/quickpay-api",
+    "description": "An API to communicate with the Danish payment gateway Quickpay",
+    "authors": [
+        {
+            "name": "Evgeniy Karpotkin",
+            "email": "karpotkin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Karpotkin\\QuickpayApi": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
