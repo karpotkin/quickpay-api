@@ -2,12 +2,12 @@
 
 require_once 'config.php.dist';
 
-use Kameli\QuickpayApi\Request\Authorize;
-use Kameli\QuickpayApi\Request\Cancel;
-use Kameli\QuickpayApi\Request\Capture;
-use Kameli\QuickpayApi\Request\Recurring;
-use Kameli\QuickpayApi\Request\Subscribe;
-use Kameli\QuickpayApi\Request\Refund;
+use Karpotkin\QuickpayApi\Request\Authorize;
+use Karpotkin\QuickpayApi\Request\Cancel;
+use Karpotkin\QuickpayApi\Request\Capture;
+use Karpotkin\QuickpayApi\Request\Recurring;
+use Karpotkin\QuickpayApi\Request\Subscribe;
+use Karpotkin\QuickpayApi\Request\Refund;
 
 class PaymentAPITest extends PHPUnit_Framework_TestCase
 {
