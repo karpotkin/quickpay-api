@@ -2,7 +2,7 @@
 
 require_once 'config.php.dist';
 
-use Kameli\QuickpayApi\Form\Response;
+use Karpotkin\QuickpayApi\Form\Response;
 
 class FormResponseTest extends PHPUnit_Framework_TestCase
 {
